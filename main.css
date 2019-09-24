@@ -1,0 +1,24 @@
+p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 12px solid pink;
+    margin: 70px;
+}
+
+#article {
+    height: 70px;
+    width: 70px;
+}
+
+#article h2{
+    height: 40%;
+    width: 40%;
+}

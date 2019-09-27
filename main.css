@@ -69,3 +69,33 @@ aside {
     color: white;
     background-color: purple;
 }
+
+.block_elem {
+    position: relative;
+    offset: left;
+    z-index: 3;
+    border: solid;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.purple_elem {
+    position: absolute;
+    offset: right;
+    z-index: 1;
+    border: solid;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.blue_elem {
+    position: absolute;
+    z-index: 2;
+    border: solid;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}

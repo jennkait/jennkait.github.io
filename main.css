@@ -33,7 +33,7 @@ nav ul li a {
     display: block;
     width: 30%;
     text-decoration: none;
-    color: rgb(255, 188, 216);
+    color: #FE77C5;
     padding: 2vw;
 }
 
@@ -62,17 +62,17 @@ header {
 
 header h1 {
     font-size: 100px;
-    color: rgb(255, 188, 216);
+    color: #FE77C5;
     text-align: right;
     position: absolute;
     bottom: 0px;
 }
 
 #about_me {
-    background-color:rgb(255, 188, 216);
+    background-color:#FE77C5;
     color: white;
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     margin: 0px;
     padding-top: 50px;
 }
@@ -80,7 +80,7 @@ header h1 {
 .about_me {
     font-size: 55px;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 p {
@@ -89,13 +89,16 @@ p {
     padding-right: 50px;
     font-size: 18px;
 }
+#work {
+    color: #FE77C5;
+}
 
-footer {
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 12px solid pink;
-    margin: 70px;
+.work {
+    font-size: 55px;
+}
+
+a {
+    color: #FE77C5;
 }
 
 
@@ -104,51 +107,4 @@ footer {
     #columns {
        display: block;
     }
-}
-
-#catpic{
-    display: flex;
-   justify-content: center;
-}
-
-#zoom{
-    padding: 50px;
-    background-color: pink;
-    transition: transform;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-#zoom:hover{
-    transform: scale(1.5);
-}
-
-button{
-    background-color: pink;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 18px;
-    margin: 4px 2px;
-    transition: 0.3s;
-}
-
-button:hover{
-    background-color: purple;
-    color: white;
-}
-
-.rotate{
-    padding: 50px;
-    background-color: skyblue;
-    width: 150px;
-    height:150px;
-    margin: 0 auto;
-}
-.rotate:hover{
-     -webkit-transform: rotateZ(-30deg);
-     -ms-transform: rotateZ(-30deg);
-     transform: rotateZ(-30deg);
 }
